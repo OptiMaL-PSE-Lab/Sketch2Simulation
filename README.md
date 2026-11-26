@@ -3,8 +3,11 @@
 [![Lint](https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation/actions/workflows/lint.yml/badge.svg)](https://github.com/OptiMaL-PSE-Lab/Sketch2Simulation/actions/workflows/lint.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.24629-b31b1b.svg)](https://arxiv.org/abs/2603.24629)
 
 Sketch2Simulation converts a process sketch image into an executable Aspen HYSYS Python script through a multi-agent pipeline.
+
+📄 **Paper:** [Sketch2Simulation: Automating Flowsheet Generation via Multi Agent Large Language Models](https://arxiv.org/abs/2603.24629) (arXiv:2603.24629)
 
 > **Prerequisites:** This project requires a licensed installation of **Aspen HYSYS** with COM access enabled. Without a valid HYSYS licence the execution stage cannot run.
 
@@ -140,3 +143,21 @@ The pipeline writes:
 ## Status
 
 Research/prototype workflow. Requires project-specific HYSYS instruction files, a valid HYSYS licence, and appropriate model access to run end-to-end.
+
+---
+
+## Citation
+
+If you use Sketch2Simulation in your research, please cite:
+
+```bibtex
+@misc{bahamdan2026sketch2simulationautomatingflowsheetgeneration,
+      title={Sketch2Simulation: Automating Flowsheet Generation via Multi Agent Large Language Models},
+      author={Abdullah Bahamdan and Emma Pajak and John D. Hedengren and Antonio del Rio Chanona},
+      year={2026},
+      eprint={2603.24629},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2603.24629},
+}
+```
